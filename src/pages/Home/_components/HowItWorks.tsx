@@ -47,7 +47,11 @@ function StepItem({ step }: { step: (typeof steps)[0]; index: number }) {
 
       {/* image placeholder */}
       <div className="w-full md:w-1/2 aspect-video rounded-2xl border border-white/5 bg-white/5 overflow-hidden">
-        <img src={step.src} className="w-full h-full object-cover object-center" alt="" />
+        <img
+          src={`/ResumeBuilder/${step.src}`}
+          className="w-full h-full object-cover object-center"
+          alt=""
+        />
       </div>
 
       {/* text */}
