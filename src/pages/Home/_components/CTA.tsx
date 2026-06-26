@@ -30,7 +30,7 @@ export default function CTA() {
           <p className="text-gray-500 max-w-md mx-auto text-xs sm:text-base">
             Join thousands of job seekers who landed their dream jobs with our resume builder.
           </p>
-          <Button to="/build" size="lg" className="group">
+          <Button to="/build/minimal" size="lg" className="group">
             Get Started for Free
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </Button>
