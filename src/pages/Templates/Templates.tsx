@@ -68,7 +68,7 @@ function TemplateCard({ template }: { template: TemplateConfig & { popular?: boo
         <div className="relative h-56 sm:h-56 overflow-hidden bg-white/5 flex items-center justify-center">
           {!imgError ? (
             <img
-              src={`/templates/${template.slug}.png`}
+              src={`/ResumeBuilder/templates/${template.slug}.png`}
               alt={template.name}
               className="w-full h-full object-cover object-left"
               onError={() => setImgError(true)}
